@@ -1,0 +1,7 @@
+{
+    "project": "project",
+    "project_slug": "{{ cookiecutter.project.lower().replace(' ', '_') }}",
+    "_copy_without_render": [
+        ".github/workflows/pythonpackage.yml"
+    ]
+}

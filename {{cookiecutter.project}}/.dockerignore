@@ -1,0 +1,30 @@
+data/
+docs/
+notebooks/
+
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+.Python
+.eggs/
+*.egg-info/
+
+# Unit test / coverage reports
+.tox/
+.hypothesis/
+.pytest_cache/
+
+# Environments
+venv/
+env/
+
+
+.git/
+.vscode/
+.dask-worker-space/
+dask-worker-space/
+.DS_Store

@@ -1,0 +1,10 @@
+site_name: {{ cookiecutter.project }}
+nav:
+  - Home: /
+theme:
+  name: material
+  palette:
+    primary: white
+    accent: purple
+markdown_extensions:
+  - pymdownx.snippets
