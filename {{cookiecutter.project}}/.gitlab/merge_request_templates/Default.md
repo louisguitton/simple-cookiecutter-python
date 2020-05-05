@@ -17,7 +17,7 @@ Describe your changes, and why you're making them. Try to give as much context a
 ## Previous work
 
 <!--
-The reader needs to have a clear understanding of dependancies (like tickets or previous work if necessary).
+The reader needs to have a clear understanding of dependencies (like tickets or previous work if necessary).
 -->
 
 Underlying Issues:

@@ -51,7 +51,7 @@ repos:
     rev: v1.1.7
     hooks:
       - id: forbid-tabs
-        exclude: makefile
+        exclude: Makefile
   - repo: https://github.com/pryorda/dockerfilelint-precommit-hooks
     rev: v0.1.0
     hooks:
