@@ -26,6 +26,7 @@ make install
 ```sh
 make develop
 make test
+make serve-docs
 ```
 
 ## Release History

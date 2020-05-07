@@ -16,6 +16,9 @@ dev_packages = [
     "black>=19.3b0",
     "flake8>=3.6.0",
     "pre-commit>=2.2.0",
+    "mkdocs>=1.1",
+    "mkdocs-material==4.6.3",
+    "mkdocstrings>=0.11.0",
 ]
 
 setup(
