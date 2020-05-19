@@ -25,9 +25,10 @@ clean:
 	rm -rf .pytest_cache
 	rm -rf build
 	rm -rf dist
-	rm -rf scikit_lego.egg-info
+	rm -rf {{ cookiecutter.project_slug }}.egg-info
 	rm -rf .ipynb_checkpoints
 	rm -rf notebooks/.ipynb_checkpoints
+	rm -rf .mypy_cache
 
 build:
 	docker build -t {{ cookiecutter.project_slug }} .
