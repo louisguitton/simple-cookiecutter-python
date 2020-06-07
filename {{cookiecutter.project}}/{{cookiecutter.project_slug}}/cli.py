@@ -1,3 +1,4 @@
+"""{{cookiecutter.project_slug}} CLI."""
 import click
 
 
