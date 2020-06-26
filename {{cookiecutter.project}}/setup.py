@@ -32,6 +32,6 @@ setup(
     packages=find_packages(exclude=["data", "docs", "notebooks"]),
     long_description=read("readme.md"),
     install_requires=base_packages,
-    entry_points={"console_scripts": ["app_review_topics = app_review_topics.cli:cli"]},
+    entry_points={"console_scripts": ["{{ cookiecutter.project_slug }} = {{ cookiecutter.project_slug }}.cli:cli"]},
     extras_require={"dev": dev_packages},
 )
