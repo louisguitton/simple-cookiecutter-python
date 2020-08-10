@@ -1,5 +1,9 @@
 """{{cookiecutter.project_slug}} module."""
 import logging
 
-logging.basicConfig(level=logging.INFO)
-LOGGER = logging.getLogger("{{cookiecutter.project_slug}}")
+from rich.logging import RichHandler
+
+
+LOGGER = logging.getLogger(__name__)
+LOGGER.setLevel(logging.INFO)
+LOGGER.addHandler(RichHandler())

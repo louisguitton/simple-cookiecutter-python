@@ -8,7 +8,7 @@ def read(fname):
     return data
 
 
-base_packages = ["Click>=7.0"]
+base_packages = ["Click>=7.0", "rich>=5.1.0"]
 
 dev_packages = [
     "jupyterlab>=0.35.4",
